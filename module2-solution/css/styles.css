@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+body {
+}
+.container {
+  position: relative;
+}
+h1 {
+  margin: 30px;
+}
+.row {
+  border: 2px black solid;
+  float: left;
+  margin-left: 25px;
+  width: 30%;
+  height: 15%;
+}
+
+.box1 {
+  background-color: ivory;
+}
+
+.box2 {
+  background-color: rgb(158, 245, 158);
+}
+
+.box3 {
+  background-color: peachpuff;
+}
+@media (min-width: 992px) {
+  .row {
+    border: 2px black solid;
+    float: left;
+    margin-left: 25px;
+    width: 30%;
+    height: 30%%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 767px) {
+}
