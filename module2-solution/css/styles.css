@@ -9,15 +9,18 @@ body {
 h1 {
   text-align: center;
   margin: 5%;
+  font-size: 2.75em;
 }
 
 h3 {
+  color: #ffc400;
   margin-left: auto;
   margin-bottom: 5px;
   text-align: center;
   border-left: black 1px solid;
   border-bottom: black 1px solid;
   width: 150px;
+  font-size: 1.25em;
 }
 
 p {
@@ -25,6 +28,7 @@ p {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
+  font-weight: 400;
 }
 
 .containter {
@@ -36,18 +40,17 @@ p {
   height: 175px;
   overflow: hidden;
   border: black 1px solid;
-  background-color: #b0b8b4ff;
+  background-color: #ff5733;
 }
 
 #h3box1 {
-  background-color: #8bbee8ff;
+  background-color: #582845;
 }
 #h3box2 {
-  background-color: #184a45ff;
-  color: goldenrod;
+  background-color: #900c3f;
 }
 #h3box3 {
-  background-color: #fc766aff;
+  background-color: #c70039;
 }
 /* Large Device*/
 @media (min-width: 992px) {
