@@ -4,38 +4,53 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+body {
+}
 h1 {
   text-align: center;
   margin: 5%;
 }
 
+h3 {
+  margin-left: auto;
+  margin-bottom: 5px;
+  text-align: center;
+  border-left: black 1px solid;
+  border-bottom: black 1px solid;
+  width: 150px;
+}
+
 p {
+  clear: right;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
 }
+
 .containter {
   width: 100%;
 }
 
-.row {
+.box-struct {
+  margin: 3%;
+  height: 175px;
+  overflow: hidden;
+  border: black 1px solid;
+  background-color: #b0b8b4ff;
 }
 
-#box1 {
-  background-color: green;
+#h3box1 {
+  background-color: #8bbee8ff;
 }
-
+#h3box2 {
+  background-color: #184a45ff;
+  color: goldenrod;
+}
+#h3box3 {
+  background-color: #fc766aff;
+}
 /* Large Device*/
 @media (min-width: 992px) {
-  #box1 {
-    background-color: blue;
-  }
-  #box2 {
-    background-color: red;
-  }
-  #box3 {
-    background-color: yellow;
-  }
   .col-lg-1,
   .col-lg-2,
   .col-lg-3,
@@ -49,7 +64,7 @@ p {
   .col-lg-11,
   .col-lg-12 {
     float: left;
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
 
   .col-lg-1 {
@@ -92,15 +107,6 @@ p {
 
 /* Medium Devices*/
 @media (min-width: 768px) and (max-width: 991px) {
-  #box1 {
-    background-color: purple;
-  }
-  #box2 {
-    background-color: orange;
-  }
-  #box3 {
-    background-color: green;
-  }
   .col-md-1,
   .col-md-2,
   .col-md-3,
@@ -114,7 +120,6 @@ p {
   .col-md-11,
   .col-md-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
@@ -156,15 +161,6 @@ p {
 
 /* Mobile View */
 @media (max-width: 767px) {
-  #box1 {
-    background-color: rgb(146, 13, 187);
-  }
-  #box2 {
-    background-color: rgb(219, 93, 20);
-  }
-  #box3 {
-    background-color: rgb(130, 231, 15);
-  }
   .col-sm-2,
   .col-sm-1,
   .col-sm-3,
@@ -178,7 +174,11 @@ p {
   .col-sm-11,
   .col-sm-12 {
     float: left;
-    border: 1px solid green;
+    margin-left: 30px;
+  }
+
+  .box-struct {
+    margin: 2%;
   }
 
   .col-sm-1 {
